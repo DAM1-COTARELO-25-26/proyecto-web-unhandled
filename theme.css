@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+#header{
+    height: 4rem;
+    align-content: center;
+    background-color: aqua;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4rem;
+    background-color: magenta;
+}
+
+#about-us{
+    text-align: center;
+    background-color: pink;
+}
+
+.nav-button{
+    flex-grow: 1;
+    text-align: center;
+    align-content: center;
+}
+
