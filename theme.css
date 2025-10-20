@@ -8,7 +8,8 @@ nav{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 4rem;
+    font-size: 25px;
+    height: 6rem;
 }
 
 main{
