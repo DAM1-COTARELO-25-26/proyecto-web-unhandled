@@ -18,7 +18,7 @@ La web es un archivo o directorio de distintas marcas de coches y algunos de sus
 | BMW        | BMW M3 EP2 Coupé                    |
 | FERRARI    | FERRARI 288 GTO 1984                |
 | FORD       | FORD MUSTANG G7 S650                |
-| MERCEDES   | MERCEDES AMG GT63 SE Performance    |
+| MERCEDES   | MERCEDES AMG GT63 SE PERFORMANCE    |
 | PORSCHE    | PORSCHE 911 GT3 RS 2025             |
 | AUTO - VAZ | VAZ-2101                             |
 | AUDI       | AUDI RS7 SPORTBACK                   |
