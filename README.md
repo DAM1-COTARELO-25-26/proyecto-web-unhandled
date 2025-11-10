@@ -15,6 +15,7 @@ La web es un archivo o directorio de distintas marcas de coches y algunos de sus
 
 ---
 | Marcas y sus coches más destacados |
+| ----------- | ----------- |
 | BMW | BMW M3 EP2 Coupé |
 | FERRARI | FERRARI 288 GTO 1984 |
 | FORD | FORD MUSTANG G7 S650 |
