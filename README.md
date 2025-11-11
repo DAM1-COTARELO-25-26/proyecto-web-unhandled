@@ -22,4 +22,7 @@ La web es un archivo o directorio de distintas marcas de coches y algunos de sus
 | PORSCHE    | PORSCHE 911 GT3 RS 2025             |
 | AUTO - VAZ | VAZ-2101                             |
 | AUDI       | AUDI RS7 SPORTBACK                   |
+
+La web contiene el landing (index.html). Y una página por cada marca de coche. En todas las páginas se puede volver a la landing o ir a otra marca empleando el menú de navegación.
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/0esC98hF)

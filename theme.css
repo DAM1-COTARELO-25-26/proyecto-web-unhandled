@@ -40,7 +40,7 @@ textarea{
     align-content: center;
     padding-left: 4rem;
 
-    background-image: url("https://images.pexels.com/photos/132657/pexels-photo-132657.jpeg?_gl=1*co11y9*_ga*ODQyMzU3NjgxLjE3NTk5NDkxOTA.*_ga_8JE65Q40S6*czE3NTk5NDkxODkkbzEkZzEkdDE3NTk5NDkyMjAkajI5JGwwJGgw");
+    background-image: url(./img/car-header-photo.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
