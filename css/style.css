@@ -1,0 +1,214 @@
+:root{
+    --cyan-green:rgb(126, 182, 160); 
+}
+
+body{
+    margin: 0;
+    background-color: rgb(39, 38, 44);
+    color: white;
+    font-size: 1.15rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 1.75rem;
+    font-weight: bold;
+    height: 6rem;
+}
+
+main{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 4rem;
+}
+
+textarea{
+    resize: none;
+    width: 98%;
+    padding: 0.5rem;
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+input, textarea{
+    border: 2px solid rgb(126, 182, 160);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    min-width: 25rem;
+    border-radius: 10px;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    background-color: rgb(182, 211, 199);
+}
+
+input[type=submit]{
+    background-color: rgb(126, 182, 160);
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(179, 228, 208);
+}
+
+::selection{
+    background-color: rgb(55, 99, 81);
+}
+
+#header{
+    height: 8rem;
+    align-content: center;
+    padding-left: 4rem;
+
+    background-image: url(../img/car-header-photo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#header>h1>a{
+    color: var(--cyan-green);
+    text-shadow: 5px 5px rgb(23, 51, 37);
+    text-align: left;
+    font-size: 3rem;
+    font-family: "BBH Sans Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+
+#header>h1>a:hover{
+    color: var(--cyan-green);
+    filter: drop-shadow(0px 0px 10px rgb(177, 230, 207));
+    font-size: 3.1rem;
+    transition-duration: 200ms;
+}
+
+#about-us{
+    padding-top: 2rem;
+    line-height: 3rem;
+}
+
+#about-us>p{
+    text-align: justify;
+}
+
+#form-get-in-touch{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-get-in-touch>*{
+    flex-grow: 1;
+}
+
+/* Navigation bar */
+
+.nav-button{
+    background-color: rgb(29, 28, 34);
+    text-align: center;
+    align-content: center;
+
+    flex-grow: 1;
+
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-button:hover{
+    color: black;
+    background-color: var(--cyan-green);
+    flex-grow: 1.1;
+
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-button>a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Car Pages */
+
+.car-main{
+    margin: 0%;
+}
+
+.car-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 60%;
+    padding: 50px;
+    background-color: rgb(15, 15, 15);
+    align-items: stretch;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 25px rgba(177, 230, 207, 0.432));
+}
+
+.car-image{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.car-image>img{
+    height: 220px;
+    border: 1px solid var(--cyan-green);
+    border-radius: 10px;
+}
+
+.car-description{
+    flex-grow: 1;
+    width: auto;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.car-description h1, .car-description h2{
+    border-left: 5px solid var(--cyan-green);
+    padding-left: 10px;
+}
+
+.car-description table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.car-description tr,
+.car-description  td,
+.car-description  th{
+    border-bottom: 1px solid rgb(94, 94, 94);
+    border-top: 1px solid rgb(94, 94, 94);
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.car-description th{
+    min-width: 15rem;
+}
+
+.car-description th{
+    background-color: rgb(76, 129, 103);
+}
+
