@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="vehiculos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="coche" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="imagenes">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="img" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:attribute name="url" type="xs:anyURI"/>
+                                                <xs:attribute name="alt" type="xs:string"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="descripcion" type="xs:string"/>
+                            <xs:element name="ficha-tecnica">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="masa" type="xs:integer"/>
+                                        <xs:element name="longitud" type="xs:integer"/>
+                                        <xs:element name="ancho" type="xs:integer"/>
+                                        <xs:element name="altura" type="xs:integer"/>
+                                        <xs:element name="velocidad-max" type="xs:integer"/>
+                                        <xs:element name="tiempo-aceleracion" type="xs:decimal"/>
+                                        <xs:element name="consumo" type="xs:decimal"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="marca">
+                            <xs:simpleType>
+                                <!-- Solo emplear las marcas con las que trabajamos -->
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="audi"/>
+                                    <xs:enumeration value="auto-vaz"/>
+                                    <xs:enumeration value="bmw"/>
+                                    <xs:enumeration value="ferrari"/>
+                                    <xs:enumeration value="ford"/>
+                                    <xs:enumeration value="mercedes"/>
+                                    <xs:enumeration value="porsche"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
