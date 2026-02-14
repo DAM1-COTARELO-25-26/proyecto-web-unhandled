@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!DOCTYPE vehiculos SYSTEM "vehiculos.dtd"> -->
+<?xml-model href="vehiculos.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<!-- Todos los vehiculos están en un mismo archivo -->
+<vehiculos>
+
+    <!-- "marca" como atributo ya que será para lógica interna-->
+    <coche marca="audi">
+        <nombre>Audi RS 7 Sportback</nombre>
+        <imagenes>
+
+            <!-- url y alt como atributos, ya que resulta más similar al html -->
+            <img url="img/audi-1.jpg" alt="Audi RS7 Sportback"/>
+            <img url="img/audi-2.jpg" alt="Audi RS7 Sportback"/>
+            <img url="img/audi-3.jpg" alt="Audi RS7 Sportback"/>
+        </imagenes>
+
+        <descripcion>
+            Uno de los mejores deportivos de audi. De la familia RS.
+            Desde su lanzamiento en 2013, el Audi RS7 Sportback se ha consolidado como una de las creaciones más emblemáticas de Audi Sport GmbH, la división de alto rendimiento de la marca alemana. Este modelo representa a la perfección el lema de la compañía: “Vorsprung durch Technik” (“A la vanguardia de la técnica”), combinando la sofisticación de un gran turismo con la fuerza bruta de un superdeportivo.
+            El RS7 no es simplemente una versión más potente del Audi A7; es la materialización de la filosofía de Audi de buscar el equilibrio entre prestaciones, tecnología y diseño. Su motor V8 biturbo de 4.0 litros, acompañado de un sistema de tracción total quattro, permite alcanzar cifras que antes eran exclusivas de los deportivos de dos plazas, pero con la comodidad y el espacio de un vehículo familiar.
+            En su versión más reciente, el RS7 alcanza 600 caballos de fuerzay acelera de 0 a 100 km/h en apenas 3,6 segundos, demostrando que la ingeniería alemana sigue marcando pautas en el mundo automotriz.
+            En conclusión, el Audi RS7 Sportback no es solo un automóvil de altas prestaciones; es una declaración de principios de lo que significa ser Audi.
+            Representa la unión entre la pasión por la velocidad, la precisión técnica y la elegancia atemporal. Es un vehículo que no solo se conduce, sino que se vive, reafirmando la posición de Audi como una marca que continúa llevando la ingeniería automotriz a su máxima expresión.
+        </descripcion>
+        <ficha-tecnica>
+            <masa>2140</masa>
+            <longitud>5009</longitud>
+            <ancho>1950</ancho>
+            <altura>1424</altura>
+            <velocidad-max>250</velocidad-max>
+            <tiempo-aceleracion>3.6</tiempo-aceleracion>
+            <consumo>12.3</consumo>
+        </ficha-tecnica>
+    </coche>
+        <coche marca="auto-vaz">
+        <nombre>VAZ-2101</nombre>
+        <imagenes>
+
+            <!-- url y alt como atributos, ya que resulta más similar al html -->
+            <img url="img/autovaz-1.jpg" alt="VAZ-2101"/>
+        </imagenes>
+
+        <descripcion>
+            El modelo más icónico de AutoVaz. Una modificación del Fiat 124.
+        </descripcion>
+        <ficha-tecnica>
+            <masa>890</masa>
+            <longitud>4073</longitud>
+            <ancho>1611</ancho>
+            <altura>1440</altura>
+            <velocidad-max>140</velocidad-max>
+            <tiempo-aceleracion>22</tiempo-aceleracion>
+            <consumo>8</consumo>
+        </ficha-tecnica>
+    </coche>
+    <coche marca="bmw">
+        <nombre>BMW M3 E92 Coupé</nombre>
+        <imagenes>
+
+            <!-- url y alt como atributos, ya que resulta más similar al html -->
+            <img url="img/bmw-1.jpg" alt="BMW M3 E92 Coupé"/>
+            <img url="img/bmw-2.jpg" alt="BMW M3 E92 Coupé"/>
+            <img url="img/bmw-3.jpg" alt="BMW M3 E92 Coupé"/>
+        </imagenes>
+
+        <descripcion>
+            El BMW M3 E92 representa uno de los momentos más puros y emocionantes en la historia de la marca bávara. 
+            Nacido en una época de transición tecnológica —cuando los motores atmosféricos de alto régimen empezaban a desaparecer en favor de los turboalimentados—, este modelo encarna la esencia del lema “BMW: Freude am Fahren” (“El placer de conducir”).
+            En su interior late el motor S65, un V8 atmosférico de 4.0 litros derivado del V10 del BMW M5 E60, ajustado y refinado por la división BMW M GmbH.
+            Esta mecánica no solo destaca por su potencia de 420 caballos o su línea roja a 8.400 rpm, sino por su carácter visceral: una entrega de potencia lineal, una respuesta inmediata al acelerador y un sonido metálico inconfundible que evoluciona desde un tono grave en bajas revoluciones hasta un rugido agudo y casi de competición al acercarse al corte.       
+            En definitiva, el BMW M3 E92 no es solo un automóvil de alto rendimiento; es un símbolo de una era en la que la ingeniería y la pasión iban de la mano. Para muchos aficionados, representa el último M3 auténtico, el punto culminante de la filosofía original de BMW M: coches creados por ingenieros para conductores, no para cumplir normas o cifras de marketing.
+        </descripcion>
+        <ficha-tecnica>
+            <masa>1600</masa>
+            <longitud>4610</longitud>
+            <ancho>1804</ancho>
+            <altura>1384</altura>
+            <velocidad-max>250</velocidad-max>
+            <tiempo-aceleracion>4.6</tiempo-aceleracion>
+            <consumo>9.5</consumo>
+        </ficha-tecnica>
+    </coche>
+    <coche marca="ferrari">
+        <nombre>FERRARI 288 GTO 1984</nombre>
+        <imagenes>
+
+            <!-- url y alt como atributos, ya que resulta más similar al html -->
+            <img url="img/ferrari-1.jpg" alt="FERRARI 288 GTO 1984"/>
+            <img url="img/ferrari-2.jpg" alt="FERRARI 288 GTO 1984"/>
+            <img url="img/ferrari-3.jpg" alt="FERRARI 288 GTO 1984"/>
+        </imagenes>
+
+        <descripcion>
+            El Ferrari 288 GTO fue presentado en 1984 como un coche de homologación para el Grupo, una categoría de competición extrema que nunca llegó a materializarse. 
+            Aun así, Ferrari aprovechó el proyecto para crear uno de los superdeportivos más legendarios de su historia.
+            Diseñado por Pininfarina, el 288 GTO combinaba líneas inspiradas en el 308 GTB con tecnología avanzada: un V8 biturbo de 400 CV y una velocidad máxima de más de 300 km.
+            Fue el primer Ferrari moderno en superar esa cifra.
+            Con solo 272 unidades fabricadas, se convirtió en un icono de exclusividad y en el precursor directo del Ferrari F40. 
+            El 288 GTO marcó el inicio de la era de los superdeportivos turbo de Ferrari y reafirmó su legado como símbolo de pasión, innovación y diseño italiano.
+        </descripcion>
+        <ficha-tecnica>
+            <masa>1160</masa>
+            <longitud>4290</longitud>
+            <ancho>1910</ancho>
+            <altura>1120</altura>
+            <velocidad-max>304</velocidad-max>
+            <tiempo-aceleracion>4.9</tiempo-aceleracion>
+            <consumo>16</consumo>
+        </ficha-tecnica>
+    </coche>
+    <coche marca="ford">
+        <nombre>Ford Mustang G7 S650</nombre>
+        <imagenes>
+
+            <!-- url y alt como atributos, ya que resulta más similar al html -->
+            <img url="img/ford-1.jpg" alt="Ford Mustang G7 S650"/>
+            <img url="img/ford-2.jpg" alt="Ford Mustang G7 S650"/>
+            <img url="img/ford-3.jpg" alt="Ford Mustang G7 S650"/>
+        </imagenes>
+
+        <descripcion>
+            El Ford Mustang es uno de los automóviles más emblemáticos de la marca Ford, y un verdadero símbolo de la cultura automovilística estadounidense. 
+            Fue presentado por primera vez en 1964, en la Mundial de Nueva York como un “pony car”: coches compactos, deportivos y asequibles, pensados para atraer a un público joven.
+            Desde su nacimiento, el Mustang no solo representó innovación técnica, sino también la habilidad de Ford para entender y tendencias de mercado.
+            A lo largo de las décadas, el Mustang ha evolucionado junto con Ford y la industria automotriz.
+            Ha pasado por siete generaciones, adaptándose a cambios de diseño, regulaciones de seguridad y demandas de rendimiento. 
+            Cada generación refleja un momento de la historia de Ford: innovación tecnológica, enfoque en eficiencia y potencia, y el afán por mantener su espíritu deportivo.
+            En resumen, Mustang no es solo un coche; es la representación del ingenio, la visión y la capacidad de Ford para crear un automóvil que trasciende generaciones, combinando historia, diseño y emoción al volante.   
+        </descripcion>
+        <ficha-tecnica>
+            <masa>1808</masa>
+            <longitud>4810</longitud>
+            <ancho>1916</ancho>
+            <altura>1414</altura>
+            <velocidad-max>250</velocidad-max>
+            <tiempo-aceleracion>5.3</tiempo-aceleracion>
+            <consumo>12</consumo>
+        </ficha-tecnica>
+    </coche>
+    <coche marca="mercedes">
+        <nombre>Mercedes AMG GT63 SE Performance</nombre>
+        <imagenes>
+
+            <!-- url y alt como atributos, ya que resulta más similar al html -->
+            <img url="img/mercedes-1.jpg" alt="Mercedes AMG GT63 SE Performance"/>
+            <img url="img/mercedes-2.jpg" alt="Mercedes AMG GT63 SE Performance"/>
+            <img url="img/mercedes-3.jpg" alt="Mercedes AMG GT63 SE Performance"/>
+        </imagenes>
+
+        <descripcion>
+        La historia de AMG comenzó en 1967, cuando Hans Werner Aufrecht y Erhard Melcher fundaron una pequeña empresa dedicada a la preparación de motores de competición, conocida como AMG Motorenbau und Entwicklung GmbH.
+        El nombre proviene de sus apellidos y del pueblo natal de Aufrecht, Grossaspach.
+        Con el tiempo, AMG se convirtió en sinónimo de rendimiento extremo y precisión alemana, destacando en campeonatos de turismos y en el desarrollo de motores potentes para Mercedes-Benz. El AMG GT fue el primer automóvil desarrollado completamente por AMG, presentado en 2014 como sucesor del SLS AMG. 
+        A lo largo de los años, la gama GT ha evolucionado hacia versiones más potentes y tecnológicamente avanzadas, culminando con el GT63 S E Performance, el primer híbrido enchufable de altas prestaciones de la división.
+        El Mercedes AMG GT63 S E Performance es la perfecta síntesis entre lujo, deportividad y tecnología.
+        Heredero del espíritu de competición que dio origen a AMG, este modelo redefine lo que puede ser un coche de alto rendimiento en el siglo XXI.
+        Con su combinación de potencia bruta, eficiencia híbrida y elegancia atemporal, se erige como el mejor Mercedes actual y uno de los automóviles más completos del mundo.          
+        </descripcion>
+        <ficha-tecnica>
+            <masa>2195</masa>
+            <longitud>4728</longitud>
+            <ancho>1984</ancho>
+            <altura>1354</altura>
+            <velocidad-max>320</velocidad-max>
+            <tiempo-aceleracion>2.8</tiempo-aceleracion>
+            <consumo>8.2</consumo>
+        </ficha-tecnica>
+    </coche>
+    <coche marca="porsche">
+        <nombre>Ford Mustang G7 S650</nombre>
+        <imagenes>
+
+            <!-- url y alt como atributos, ya que resulta más similar al html -->
+            <img url="img/porsche-1.jpg" alt="Porsche 911 GT3 RS 2025"/>
+            <img url="img/porsche-2.jpg" alt="Porsche 911 GT3 RS 2025"/>
+            <img url="img/porsche-3.jpg" alt="Porsche 911 GT3 RS 2025"/>
+        </imagenes>
+
+        <descripcion>
+        El Porsche 911 GT3 RS 2025 es la cúspide de una saga que comenzó en 1999 con el primer 911 GT3.
+        Desde entonces, Porsche ha llevado este modelo a evolucionar constantemente, combinando la deportividad extrema con la posibilidad de ser usado en carretera.
+        La denominación RS, que significa RennSport o “deporte de competición”, indica que este coche está pensado para la pista, con mejoras significativas en aerodinámica, chasis y potencia sobre el GT3 convencional.
+        El GT3 RS 2025 mantiene la esencia de estas versiones: su motor bóxer atmosférico de 4.0 litros entrega 518 CV y alcanza hasta 9.000 rpm, ofreciendo una respuesta directa y un sonido inconfundible que lo acercan a un coche de competición. 
+        Su aerodinámica ha sido optimizada para generar una carga impresionante, lo que permite que el coche mantenga la estabilidad incluso a velocidades extremas.
+        La suspensión, los frenos y los neumáticos están calibrados para exprimir cada curva del circuito, mientras que el coche sigue siendo legal en carretera.
+        En conclusión, el Porsche 911 GT3 RS 2025 es más que un coche: es la culminación de más de 25 años de evolución del GT3, un tributo a la pureza del 911 y un símbolo del compromiso de Porsche con la excelencia deportiva.
+        </descripcion>
+        <ficha-tecnica>
+            <masa>1450</masa>
+            <longitud>4572</longitud>
+            <ancho>1900</ancho>
+            <altura>1322</altura>
+            <velocidad-max>296</velocidad-max>
+            <tiempo-aceleracion>3.2</tiempo-aceleracion>
+            <consumo>13.2</consumo>
+        </ficha-tecnica>
+    </coche>        
+</vehiculos>

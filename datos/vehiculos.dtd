@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT vehiculos (coche)>
+<!ELEMENT coche (nombre,imagenes,descripcion,ficha-tecnica)>
+<!ATTLIST coche marca CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT imagenes (img*)>
+<!ELEMENT img EMPTY>
+<!ATTLIST img url CDATA #REQUIRED>
+<!ATTLIST img alt CDATA #REQUIRED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT ficha-tecnica (masa,longitud,ancho,altura,velocidad-max,tiempo-aceleracion,consumo)>
+<!ELEMENT masa (#PCDATA)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT ancho (#PCDATA)>
+<!ELEMENT altura (#PCDATA)>
+<!ELEMENT velocidad-max (#PCDATA)>
+<!ELEMENT tiempo-aceleracion (#PCDATA)>
+<!ELEMENT consumo (#PCDATA)>
