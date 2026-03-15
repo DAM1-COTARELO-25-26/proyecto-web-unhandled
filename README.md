@@ -51,5 +51,9 @@ vehiculos<br>
 ### Validación
 Ver documentación completa en [`/datos/validacion.md`](datos/validacion.md)
 
+## Transformación XSL
+
+Empleando el archivo _audi-to-html.xsl_ se transforma el xml _vehiculos.xml_ en el html correspondiente de Audi, en este caso _audi.html_. Cambiando una única variable dentro del xsl, se puede generar el html del _auto-vaz_ o de cualquier otra marca. Pero para este ejemplo solo se ha realizado el de Audi.
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/0esC98hF)
 
